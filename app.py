@@ -426,4 +426,5 @@ def eat_endpoint():
     result, status_code = internal_generate_jwt(access_token)
     return jsonify(result), status_code
 
-
+    if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=1080, debug=False)
