@@ -1,8 +1,0 @@
-Flask
-Flask-Cors
-requests
-pycryptodome
-PyJWT
-protobuf==3.20.3
-urllib3
-gunicorn
